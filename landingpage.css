@@ -1,0 +1,247 @@
+body{
+    margin: 0;
+}
+.intro{
+    background-image: url('./picts/computering.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 75rem;
+    position: relative;
+    background-attachment: fixed;
+    filter: grayscale(50%) 
+}
+.hello{
+    color: white;
+    position: absolute; 
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    top: 40%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar{
+    height: 6.25rem;
+    background-color: black;
+    text-align: right;
+    position: sticky;
+    top: 0;
+}
+.nav{
+    display: inline-block;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+    padding: 2.125rem 1.875rem;
+}
+.nav:hover{
+    background-color: gray;
+    transition-duration: 500ms;
+}
+#mobicon{
+    float: left;
+    display: none;
+    padding-top: 1.75rem;
+}
+#mobicon>img{
+    height: 2.5rem;
+}
+#deskicon{
+    float: left;
+}
+.box1{
+    text-align: center;
+    margin-top: 1.875rem;
+}
+.myphoto{
+    height: 100%;
+    max-height: 18.75rem;
+    border-radius: 3.125rem;
+}
+.mobiletext{
+    display: none;
+}
+.mytext{
+    font-size: 1.875rem;
+    width: 80%;
+    max-width: 37.5rem;
+    margin: 1.25rem auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: justify;
+}
+#perkenalan{
+    max-width: 31.25rem;
+}
+.box2{
+    text-align: center;
+    margin-top: 1.875rem;   
+}
+.conts1{
+    display: inline-block;
+    margin: 1.875rem 1.875rem;
+}
+#inlinephoto, #inlinetext{
+    display: inline-block;
+    vertical-align: middle;
+}
+#inlinetext{
+    max-width: 31.25rem;
+    width: 80%;  
+}
+.hobi{
+    text-align: center;
+    margin-top: 9.375rem;
+}
+.myhobi{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    text-decoration: underline;
+    font-size: 2.5rem;
+}
+.hobipict{
+    height: 100%;
+    max-height: 18.75rem;
+}
+#hpict{
+    height: 21.875rem;
+    width: 21.875rem;
+    margin-bottom: 0.625rem;
+}
+.hrule{
+    margin-top: 3.125rem;
+    max-width: 93.75rem;
+    width: 100%;
+}
+.kontaksaya{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    text-decoration: underline;
+    font-size: 2.5rem; 
+    text-align: center;    
+}
+.contact{
+    margin-top: 1.875rem;
+    text-align: center;
+}
+.coninfo{
+    display: inline-block;
+}
+#inputtext{
+    margin: 1.875rem 6.25rem;
+}
+.infotext{
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 1.875rem;
+    text-align: left;
+}
+.text{
+    width: 43.75rem;
+    height: 1.563rem;
+    font-size: 1.25rem;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+#label3{
+    height: 18.75rem;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+.kirim{
+    margin-top: 0.625rem;
+    display: block;
+    width: 43.75rem;
+    height: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    background-color: lightskyblue;
+    border: none;
+    text-decoration: none;
+    transition-duration: 500ms;
+}
+.kirim:hover{
+    background-color: aqua;
+}
+#socmed{
+    margin-top: 1.875rem;
+    display: inline-block;
+    vertical-align: top;
+}
+.socmeds{
+    text-align: center;
+    width: 43.75rem;
+    margin: 1.875rem 1.25rem;
+}
+.num{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1.25rem;
+}
+#numpic{
+    height: 9.375rem;
+    transition-duration: 500ms;
+}
+#numpic:hover{
+    filter: hue-rotate(180deg); 
+}
+#no{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.25rem;
+}
+.ending{
+    background-color: black;
+    height: 6.25rem;
+    color: white;
+}
+.copytext{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+@media only screen and (max-width: 1750px){
+    html{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 1550px){
+    html{
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 1270px){
+    html{
+        font-size: 8px;
+    }
+}
+@media only screen and (max-width: 1030px){
+    html{
+        font-size: 6px;
+    }
+    #inlinetext{
+        display: none;
+    }
+    #mobicon{
+        display: block;   
+    }
+    #deskicon{
+        display: none;
+    }
+    .mobiletext{
+        display: block;
+        font-size: 1.875rem;
+        width: 80%;
+        max-width: 37.5rem;
+        margin: 1.25rem auto;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-align: justify;
+    }
+}
