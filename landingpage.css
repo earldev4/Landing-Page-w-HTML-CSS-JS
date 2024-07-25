@@ -36,11 +36,32 @@ body{
     font-weight: 400;
     font-style: normal;
     font-size: 1.25rem;
-    padding: 2.125rem 1.875rem;
+    padding: 2.125rem 1.575rem;
 }
 .nav:hover{
     background-color: gray;
     transition-duration: 500ms;
+}
+.lightbutton{
+    display: inline-block;
+    padding: none;
+    margin: 0.625rem 1.25rem;
+}
+#light{
+    height: 3.5rem;
+    padding: none;
+    background-color: #FFBF00;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+    color: white;
+    border: none;
+    border-radius: 0.625rem;
+    transition-duration: 500ms;
+}
+#light:hover{
+    background-color: #001251;   
 }
 #mobicon{
     float: left;
