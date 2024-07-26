@@ -60,8 +60,11 @@ body{
 .light:hover{
     background-color: #0a2472;   
 }
-#dark{
+.dark{
     background-color: #0a2472;
+}
+.dark:hover{
+    background-color: #FFBF00;
 }
 .changebg{
     background-color: #000435;
@@ -275,6 +278,7 @@ body{
         display: none;
     }
     .mobiletext{
+        transition-duration: 500ms;
         display: block;
         font-size: 1.875rem;
         width: 80%;
@@ -284,5 +288,13 @@ body{
         font-weight: 400;
         font-style: normal;
         text-align: justify;
+    } 
+}
+@media only screen and (max-width: 520px){
+    /* .light{
+        display: none;
+    } */
+    #contnav{
+        display: none;
     }
 }
