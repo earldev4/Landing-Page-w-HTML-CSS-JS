@@ -291,9 +291,6 @@ body{
     } 
 }
 @media only screen and (max-width: 520px){
-    /* .light{
-        display: none;
-    } */
     #contnav{
         display: none;
     }
