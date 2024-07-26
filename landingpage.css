@@ -65,9 +65,11 @@ body{
 }
 .changebg{
     background-color: #000435;
+    transition-duration: 500ms;
 }
 .changefont{
-    color: white
+    color: white;
+    transition-duration: 500ms;
 }
 #mobicon{
     float: left;
@@ -84,6 +86,7 @@ body{
     text-align: center;
     padding-top: 1.875rem;
     padding-bottom: 1.875rem;
+    transition-duration: 500ms;
 }
 .myphoto{
     height: 100%;
@@ -102,13 +105,15 @@ body{
     font-weight: 400;
     font-style: normal;
     text-align: justify;
+    transition-duration: 500ms;
 }
 #perkenalan{
     max-width: 31.25rem;
 }
 .box2{
     text-align: center;
-    padding-top: 1.875rem;   
+    padding-top: 1.875rem; 
+    transition-duration: 500ms;  
 }
 .conts1{
     display: inline-block;
@@ -126,12 +131,14 @@ body{
     text-align: center;
     padding-top: 9.375rem;
     padding-bottom: 2.375rem;
+    transition-duration: 500ms;
 }
 .myhobi{
     font-family: "Poppins", sans-serif;
     font-style: normal;
     text-decoration: underline;
     font-size: 2.5rem;
+    transition-duration: 500ms;
 }
 .hobipict{
     height: 100%;
@@ -146,17 +153,20 @@ body{
     margin-top: 3.125rem;
     max-width: 93.75rem;
     width: 100%;
+    transition-duration: 500ms;
 }
 .kontaksaya{
     font-family: "Poppins", sans-serif;
     font-style: normal;
     text-decoration: underline;
     font-size: 2.5rem; 
-    text-align: center;    
+    text-align: center; 
+    transition-duration: 500ms;   
 }
 .contact{
     padding-top: 1.875rem;
     text-align: center;
+    transition-duration: 500ms;
 }
 .coninfo{
     display: inline-block;
@@ -170,6 +180,7 @@ body{
     font-style: normal;
     font-size: 1.875rem;
     text-align: left;
+    transition-duration: 500ms;
 }
 .text{
     width: 43.75rem;
@@ -213,6 +224,7 @@ body{
     display: inline-block;
     vertical-align: middle;
     margin-left: 1.25rem;
+    transition-duration: 500ms;
 }
 #numpic{
     height: 9.375rem;
