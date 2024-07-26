@@ -60,6 +60,9 @@ body{
 #light:hover{
     background-color: #001251;   
 }
+#dark{
+    background-color: #0a2472;
+}
 .changebg{
     background-color: #000435;
 }
