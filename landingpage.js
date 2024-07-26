@@ -1,6 +1,6 @@
 $(document).ready(function(){
     
-    let lightbutton = $('#light')
+    let lightbutton = $('.light')
     let box1 = $('.box1')
     let box2 = $('.box2')
     let hobi = $('.hobi')
@@ -12,7 +12,7 @@ $(document).ready(function(){
     let infotext = $('.infotext')
     let num = $('.num')
     let changelight = function(){
-        lightbutton.toggleClass()
+        lightbutton.toggleClass('dark')
         box1.toggleClass('changebg')
         box2.toggleClass('changebg')
         hobi.toggleClass('changebg')
