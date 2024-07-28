@@ -70,6 +70,9 @@ body{
     background-color: #000435;
     transition-duration: 500ms;
 }
+.givefilter{
+    filter: invert(70%);
+}
 .changefont{
     color: white;
     transition-duration: 500ms;
