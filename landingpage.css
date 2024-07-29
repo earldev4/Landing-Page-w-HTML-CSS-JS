@@ -9,10 +9,10 @@ body{
     height: 75rem;
     position: relative;
     background-attachment: fixed;
-    filter: grayscale(50%) 
+    filter: grayscale(50%);
+    transition-duration: 500ms;
 }
 .introduction{
-    color: white;
     position: absolute; 
     margin: 0;
     width: 100%;
@@ -21,6 +21,9 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+#intro-text{
+    color: white;
 }
 .navigation{
     height: 6.25rem;
@@ -72,6 +75,7 @@ body{
 }
 .givefilter{
     filter: invert(70%);
+    transition-duration: 500ms;
 }
 .changefont{
     color: white;
