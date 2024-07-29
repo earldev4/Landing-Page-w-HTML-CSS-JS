@@ -161,7 +161,7 @@ body{
     width: 100%;
     transition-duration: 500ms;
 }
-.kontaksaya{
+.contact-me{
     font-family: "Poppins", sans-serif;
     font-style: normal;
     text-decoration: underline;
@@ -174,10 +174,10 @@ body{
     text-align: center;
     transition-duration: 500ms;
 }
-.coninfo{
+.contact-info{
     display: inline-block;
 }
-#inputtext{
+#ask-me{
     margin: 1.875rem 6.25rem;
 }
 .infotext{
@@ -200,7 +200,7 @@ body{
     font-family: "Poppins", sans-serif;
     font-style: normal;
 }
-.kirim{
+.send{
     margin-top: 0.625rem;
     display: block;
     width: 43.75rem;
@@ -213,7 +213,7 @@ body{
     text-decoration: none;
     transition-duration: 500ms;
 }
-.kirim:hover{
+.send:hover{
     background-color: aqua;
 }
 #socmed{
@@ -243,14 +243,18 @@ body{
     font-family: "Poppins", sans-serif;
     font-size: 1.25rem;
 }
-.ending{
+.footer{
     background-color: black;
     height: 6.25rem;
     color: white;
+    position: relative;
 }
 .copytext{
+    position: absolute;
+    top: 15%;
     font-family: "Poppins", sans-serif;
     text-align: center;
+    width: 100%;
 }
 @media only screen and (max-width: 1750px){
     html{
