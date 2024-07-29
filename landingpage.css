@@ -1,7 +1,7 @@
 body{
     margin: 0;
 }
-.intro{
+.header{
     background-image: url('./picts/computering.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@ body{
     background-attachment: fixed;
     filter: grayscale(50%) 
 }
-.hello{
+.introduction{
     color: white;
     position: absolute; 
     margin: 0;
@@ -22,14 +22,14 @@ body{
     font-weight: 400;
     font-style: normal;
 }
-.navbar{
+.navigation{
     height: 6.25rem;
     background-color: black;
     text-align: right;
     position: sticky;
     top: 0;
 }
-.nav{
+.navbar{
     display: inline-block;
     color: white;
     font-family: "Poppins", sans-serif;
@@ -38,7 +38,7 @@ body{
     font-size: 1.25rem;
     padding: 2.125rem 1.575rem;
 }
-.nav:hover{
+.navbar:hover{
     background-color: gray;
     transition-duration: 500ms;
 }
