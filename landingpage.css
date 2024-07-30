@@ -184,7 +184,7 @@ body{
 #ask-me{
     margin: 1.875rem 6.25rem;
 }
-.infotext{
+.info-text{
     display: block;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -236,11 +236,11 @@ body{
     margin-left: 1.25rem;
     transition-duration: 500ms;
 }
-#numpic{
+#num-pic{
     height: 9.375rem;
     transition-duration: 500ms;
 }
-#numpic:hover{
+#num-pic:hover{
     filter: hue-rotate(180deg); 
 }
 #no{
@@ -279,16 +279,16 @@ body{
     html{
         font-size: 6px;
     }
-    #inlinetext{
+    #inline-text{
         display: none;
     }
-    #mobicon{
+    #mob-icon{
         display: block;   
     }
-    #deskicon{
+    #desk-icon{
         display: none;
     }
-    .mobiletext{
+    .mobile-text{
         transition-duration: 500ms;
         display: block;
         font-size: 1.875rem;
@@ -302,7 +302,7 @@ body{
     } 
 }
 @media only screen and (max-width: 520px){
-    #contnav{
+    #cont-nav{
         display: none;
     }
 }
