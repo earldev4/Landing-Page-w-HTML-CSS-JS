@@ -81,15 +81,15 @@ body{
     color: white;
     transition-duration: 500ms;
 }
-#mobicon{
+#mob-icon{
     float: left;
     display: none;
     padding-top: 1.75rem;
 }
-#mobicon>img{
+#mob-icon>img{
     height: 2.5rem;
 }
-#deskicon{
+#desk-icon{
     float: left;
 }
 .section1{
@@ -98,15 +98,15 @@ body{
     padding-bottom: 1.875rem;
     transition-duration: 500ms;
 }
-.myphoto{
+.my-photo{
     height: 100%;
     max-height: 18.75rem;
     border-radius: 3.125rem;
 }
-.mobiletext{
+.mobile-text{
     display: none;
 }
-.mytext{
+.my-text{
     font-size: 1.875rem;
     width: 80%;
     max-width: 37.5rem;
@@ -129,11 +129,11 @@ body{
     display: inline-block;
     margin: 1.875rem 1.875rem;
 }
-#inlinephoto, #inlinetext{
+#inline-photo, #inline-text{
     display: inline-block;
     vertical-align: middle;
 }
-#inlinetext{
+#inline-text{
     max-width: 31.25rem;
     width: 80%;  
 }
@@ -143,18 +143,18 @@ body{
     padding-bottom: 2.375rem;
     transition-duration: 500ms;
 }
-.myhobitext{
+.my-hobi-text{
     font-family: "Poppins", sans-serif;
     font-style: normal;
     text-decoration: underline;
     font-size: 2.5rem;
     transition-duration: 500ms;
 }
-.hobipict{
+.hobi-pict{
     height: 100%;
     max-height: 18.75rem;
 }
-#hpict{
+#h-pict{
     height: 21.875rem;
     width: 21.875rem;
     margin-bottom: 0.625rem;
